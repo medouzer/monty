@@ -73,6 +73,7 @@ FILE *openfile(char *filename);
 void verify_number(char *token);
 void free_stack(stack_t *head);
 size_t num_len(int num);
+void _pint(stack_t **head, unsigned int line_number);
 
 
 #endif

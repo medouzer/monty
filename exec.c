@@ -10,6 +10,7 @@ void exec(void)
 	instruction_t ins[] = {
 		{"push", _push},
 		{"pall", _pall},
+		{"pint", _pint},
 		{NULL, NULL},
 	};
 	int j = 0;
