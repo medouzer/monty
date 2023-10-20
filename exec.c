@@ -18,6 +18,7 @@ void exec(void)
 		{"sub", _sub},
 		{"div", _div},
 		{"mul", _mul},
+		{"mod", _mod},
 		{NULL, NULL},
 	};
 	int j = 0;
