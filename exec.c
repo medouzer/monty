@@ -19,6 +19,12 @@ void exec(void)
 		{"div", _div},
 		{"mul", _mul},
 		{"mod", _mod},
+		{"pchar", _pchar},
+		{"pstr", _pstr},
+		{"rotl", _rotl},
+		{"rotr", _rotr},
+		{"stack", _mode},
+		{"queue", _mode},
 		{NULL, NULL},
 	};
 	int j = 0;
